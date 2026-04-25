@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="unicsul.pdm.cruzeiroecosul.ui.InicioFragment"
+        android:label="Início" />
+
+    <fragment
+        android:id="@+id/dicasFragment"
+        android:name="unicsul.pdm.cruzeiroecosul.ui.DicasFragment"
+        android:label="Dicas" />
+
+    <fragment
+        android:id="@+id/sobreFragment"
+        android:name="unicsul.pdm.cruzeiroecosul.ui.SobreFragment"
+        android:label="Sobre" />
+
+</navigation>
