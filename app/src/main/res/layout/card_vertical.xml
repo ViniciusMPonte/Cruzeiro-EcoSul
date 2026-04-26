@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cardVerticalImagem"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ImagemCardArredondada" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/cardVerticalTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.CardTitle" />
+
+            <TextView
+                android:id="@+id/cardVerticalDescricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.BodyStart" />
+
+            <TextView
+                android:id="@+id/cardVerticalChip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="4dp"
+                android:background="@drawable/bg_chip"
+                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Label" />
+
+        </LinearLayout>
+    </LinearLayout>
+</merge>

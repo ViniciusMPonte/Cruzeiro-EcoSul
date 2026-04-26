@@ -7,14 +7,15 @@
     android:padding="@dimen/page_margin"
     android:textAlignment="center">
 
-    <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
+    <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:dicaDescricao="Separe materiais recicláveis e ajude a reduzir a poluição."
-        app:dicaIcone="@drawable/eco"
-        app:dicaTitulo="Recicle seu lixo"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:verticalImagem="@drawable/hero"
+        app:verticalTitulo="Use energia de forma consciente"
+        app:verticalDescricao="Desligue luzes e aparelhos quando não estiver usando."
+        app:verticalChip="Energia"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

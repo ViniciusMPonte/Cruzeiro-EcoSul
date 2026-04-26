@@ -5,4 +5,10 @@
         <attr name="dicaDescricao" format="string" />
         <attr name="dicaIcone" format="reference" />
     </declare-styleable>
+    <declare-styleable name="CardVertical">
+        <attr name="verticalTitulo" format="string" />
+        <attr name="verticalDescricao" format="string" />
+        <attr name="verticalImagem" format="reference" />
+        <attr name="verticalChip" format="string" />
+    </declare-styleable>
 </resources>

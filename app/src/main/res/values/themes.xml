@@ -13,6 +13,11 @@
         <item name="cornerSize">16dp</item>
     </style>
 
+    <style name="ImagemCardArredondada">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
     <style name="TextAppearance.CruzeiroEcoSul.Heading" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="android:textSize">32sp</item>
         <item name="android:textColor">@color/primary</item>
