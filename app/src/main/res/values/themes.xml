@@ -53,4 +53,16 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="Widget.CruzeiroEcoSul.CardVertical" parent="Widget.Material3.CardView.Outlined">
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+
+    <style name="Widget.CruzeiroEcoSul.CardHorizontal" parent="Widget.Material3.CardView.Outlined">
+        <item name="strokeColor">@color/divider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+
 </resources>

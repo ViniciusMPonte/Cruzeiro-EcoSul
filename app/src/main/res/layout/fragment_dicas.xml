@@ -8,9 +8,9 @@
     android:textAlignment="center">
 
     <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
+        style="@style/Widget.CruzeiroEcoSul.CardVertical"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="@color/surface"
         app:chip="Energia"
         app:descricao="Desligue luzes e aparelhos quando não estiver usando."
         app:imagem="@drawable/hero"
