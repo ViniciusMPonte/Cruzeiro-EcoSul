@@ -14,7 +14,7 @@
             android:background="@drawable/bg_icone_card">
 
             <ImageView
-                android:id="@+id/cardDicaIcone"
+                android:id="@+id/cardHorizontalIcone"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
@@ -31,13 +31,13 @@
             android:layout_marginStart="16dp">
 
             <TextView
-                android:id="@+id/cardDicaTitulo"
+                android:id="@+id/cardHorizontalTitulo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.CardTitle" />
 
             <TextView
-                android:id="@+id/cardDicaDescricao"
+                android:id="@+id/cardHorizontalDescricao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"

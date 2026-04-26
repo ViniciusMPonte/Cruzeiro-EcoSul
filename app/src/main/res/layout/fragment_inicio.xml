@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <unicsul.pdm.cruzeiroecosul.componentes.CardDica
+    <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:dicaDescricao="Separe materiais recicláveis e ajude a reduzir a poluição."
