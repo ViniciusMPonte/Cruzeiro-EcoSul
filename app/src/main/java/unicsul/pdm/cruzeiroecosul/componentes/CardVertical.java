@@ -20,13 +20,13 @@ public class CardVertical extends MaterialCardView {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CardVertical);
 
         ((ShapeableImageView) findViewById(R.id.cardVerticalImagem))
-                .setImageResource(a.getResourceId(R.styleable.CardVertical_verticalImagem, 0));
+                .setImageResource(a.getResourceId(R.styleable.CardVertical_imagem, 0));
         ((TextView) findViewById(R.id.cardVerticalTitulo))
-                .setText(a.getString(R.styleable.CardVertical_verticalTitulo));
+                .setText(a.getString(R.styleable.CardVertical_titulo));
         ((TextView) findViewById(R.id.cardVerticalDescricao))
-                .setText(a.getString(R.styleable.CardVertical_verticalDescricao));
+                .setText(a.getString(R.styleable.CardVertical_descricao));
         ((TextView) findViewById(R.id.cardVerticalChip))
-                .setText(a.getString(R.styleable.CardVertical_verticalChip));
+                .setText(a.getString(R.styleable.CardVertical_chip));
 
         a.recycle();
     }

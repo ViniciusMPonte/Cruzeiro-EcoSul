@@ -10,10 +10,10 @@
     <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:verticalImagem="@drawable/hero"
-        app:verticalTitulo="Use energia de forma consciente"
-        app:verticalDescricao="Desligue luzes e aparelhos quando não estiver usando."
-        app:verticalChip="Energia"
+        app:imagem="@drawable/hero"
+        app:titulo="Use energia de forma consciente"
+        app:descricao="Desligue luzes e aparelhos quando não estiver usando."
+        app:chip="Energia"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

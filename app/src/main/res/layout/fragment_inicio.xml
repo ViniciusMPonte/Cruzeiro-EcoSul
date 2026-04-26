@@ -43,9 +43,9 @@
     <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:dicaDescricao="Separe materiais recicláveis e ajude a reduzir a poluição."
-        app:dicaIcone="@drawable/eco"
-        app:dicaTitulo="Recicle seu lixo"
+        app:descricao="Separe materiais recicláveis e ajude a reduzir a poluição."
+        app:icone="@drawable/eco"
+        app:titulo="Recicle seu lixo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />

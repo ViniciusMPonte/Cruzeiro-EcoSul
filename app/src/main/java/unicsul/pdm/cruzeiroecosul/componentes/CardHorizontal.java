@@ -19,11 +19,11 @@ public class CardHorizontal extends MaterialCardView {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CardHorizontal);
 
         ((TextView) findViewById(R.id.cardHorizontalTitulo))
-                .setText(a.getString(R.styleable.CardHorizontal_dicaTitulo));
+                .setText(a.getString(R.styleable.CardHorizontal_titulo));
         ((TextView) findViewById(R.id.cardHorizontalDescricao))
-                .setText(a.getString(R.styleable.CardHorizontal_dicaDescricao));
+                .setText(a.getString(R.styleable.CardHorizontal_descricao));
         ((ImageView) findViewById(R.id.cardHorizontalIcone))
-                .setImageResource(a.getResourceId(R.styleable.CardHorizontal_dicaIcone, 0));
+                .setImageResource(a.getResourceId(R.styleable.CardHorizontal_icone, 0));
 
         a.recycle();
     }

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="titulo" format="string" />
+    <attr name="descricao" format="string" />
+
     <declare-styleable name="CardHorizontal">
-        <attr name="dicaTitulo" format="string" />
-        <attr name="dicaDescricao" format="string" />
-        <attr name="dicaIcone" format="reference" />
+        <attr name="titulo" />
+        <attr name="descricao" />
+        <attr name="icone" format="reference" />
     </declare-styleable>
+
     <declare-styleable name="CardVertical">
-        <attr name="verticalTitulo" format="string" />
-        <attr name="verticalDescricao" format="string" />
-        <attr name="verticalImagem" format="reference" />
-        <attr name="verticalChip" format="string" />
+        <attr name="titulo" />
+        <attr name="descricao" />
+        <attr name="imagem" format="reference" />
+        <attr name="chip" format="string" />
     </declare-styleable>
 </resources>
