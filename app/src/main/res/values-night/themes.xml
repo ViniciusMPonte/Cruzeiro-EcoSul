@@ -4,10 +4,5 @@
         <!-- Customize your dark theme here. -->
         <item name="android:statusBarColor">@color/primary</item>
         <item name="android:windowBackground">@color/background</item>
-        <item name="android:textViewStyle">@style/TextViewPadrao</item>
-    </style>
-
-    <style name="TextViewPadrao" parent="android:Widget.TextView">
-        <item name="android:textColor">@color/muted</item>
     </style>
 </resources>

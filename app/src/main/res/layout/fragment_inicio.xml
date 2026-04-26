@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/page_margin">
@@ -16,5 +17,46 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pequenas ações, grande impacto"
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Heading" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por que agir agora?"
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.SectionTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recicle seu lixo"
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.CardTitle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuidar do planeta é cuidar de nós mesmos e das próximas gerações."
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energia"
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Label" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
