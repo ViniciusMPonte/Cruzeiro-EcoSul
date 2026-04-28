@@ -7,8 +7,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/txtVersao">
+        app:layout_constraintBottom_toTopOf="@+id/txtVersao"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -33,11 +33,13 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/sobre_descricao"
-                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body" />
+                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body"
+                android:textColor="@color/primary"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginVertical="@dimen/large_margin_component"
                 android:background="@color/primary" />
 
             <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal

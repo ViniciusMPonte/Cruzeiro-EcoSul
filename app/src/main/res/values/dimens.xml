@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="linear_gap">6dp</dimen>
+    <dimen name="large_margin_component">25dp</dimen>
     <dimen name="page_margin">20dp</dimen>
     <dimen name="text_center_width">300dp</dimen>
 </resources>

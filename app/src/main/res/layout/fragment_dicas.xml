@@ -11,10 +11,11 @@
         android:padding="@dimen/page_margin">
 
         <TextView
-            android:id="@+id/textView2"
+            style="@style/TextAppearance.CruzeiroEcoSul.CardTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dicas_subtitulo" />
+            android:text="@string/dicas_subtitulo"
+            android:textStyle="normal" />
 
         <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
             style="@style/Widget.CruzeiroEcoSul.CardVertical"
