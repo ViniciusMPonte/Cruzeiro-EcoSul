@@ -3,7 +3,6 @@ package unicsul.pdm.cruzeiroecosul.componentes;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.material.card.MaterialCardView;
@@ -19,14 +18,15 @@ public class CardVertical extends MaterialCardView {
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CardVertical);
 
-        ((ShapeableImageView) findViewById(R.id.cardVerticalImagem))
-                .setImageResource(a.getResourceId(R.styleable.CardVertical_imagem, 0));
-        ((TextView) findViewById(R.id.cardVerticalTitulo))
-                .setText(a.getString(R.styleable.CardVertical_titulo));
-        ((TextView) findViewById(R.id.cardVerticalDescricao))
-                .setText(a.getString(R.styleable.CardVertical_descricao));
-        ((TextView) findViewById(R.id.cardVerticalChip))
-                .setText(a.getString(R.styleable.CardVertical_chip));
+        ShapeableImageView imagem = findViewById(R.id.cardVerticalImagem);
+        TextView titulo = findViewById(R.id.cardVerticalTitulo);
+        TextView descricao = findViewById(R.id.cardVerticalDescricao);
+        TextView chip = findViewById(R.id.cardVerticalChip);
+
+        imagem.setImageResource(a.getResourceId(R.styleable.CardVertical_imagem, 0));
+        titulo.setText(a.getString(R.styleable.CardVertical_titulo));
+        descricao.setText(a.getString(R.styleable.CardVertical_descricao));
+        chip.setText(a.getString(R.styleable.CardVertical_chip));
 
         a.recycle();
     }

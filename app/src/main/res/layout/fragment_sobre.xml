@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="@dimen/page_margin">
+    android:padding="@dimen/page_margin"
+    android:textAlignment="center">
 
-    <TextView
-        android:text="Sobre"
-        android:textSize="24sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
+        style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:corCard="@color/background"
+        app:strokeColor="@color/background"
+        app:descricao="Separe materiais recicláveis e ajude a reduzir a poluição."
+        app:icone="@drawable/eco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titulo="Recicle seu lixo"
+        app:corTitulo="@color/primary" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

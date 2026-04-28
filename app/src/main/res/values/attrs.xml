@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="titulo" format="string" />
+    <attr name="corTitulo" format="color" />
     <attr name="descricao" format="string" />
+    <attr name="corDescricao" format="color" />
 
     <declare-styleable name="CardHorizontal">
         <attr name="titulo" />
+        <attr name="corTitulo" />
         <attr name="descricao" />
+        <attr name="corDescricao" />
         <attr name="icone" format="reference" />
+        <attr name="corIcone" format="color" />
+        <attr name="corFundoIcone" format="color" />
+        <attr name="corCard" format="color" />
     </declare-styleable>
 
     <declare-styleable name="CardVertical">
