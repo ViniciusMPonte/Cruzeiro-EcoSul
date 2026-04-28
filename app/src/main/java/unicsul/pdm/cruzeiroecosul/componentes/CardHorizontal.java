@@ -6,6 +6,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
@@ -26,6 +27,7 @@ public class CardHorizontal extends MaterialCardView {
         TextView descricao = findViewById(R.id.cardHorizontalDescricao);
         ImageView icone = findViewById(R.id.cardHorizontalIcone);
         View fundoIcone = findViewById(R.id.cardHorizontalFundoIcone);
+        LinearLayout container = findViewById(R.id.cardHorizontalContainer);
 
         titulo.setText(a.getString(R.styleable.CardHorizontal_titulo));
         descricao.setText(a.getString(R.styleable.CardHorizontal_descricao));
@@ -49,6 +51,11 @@ public class CardHorizontal extends MaterialCardView {
 
         if (a.hasValue(R.styleable.CardHorizontal_corCard)) {
             setCardBackgroundColor(a.getColor(R.styleable.CardHorizontal_corCard, 0));
+        }
+
+        if (a.hasValue(R.styleable.CardHorizontal_paddingContainer)) {
+            int padding = a.getDimensionPixelSize(R.styleable.CardHorizontal_paddingContainer, 0);
+            container.setPadding(padding, padding, padding, padding);
         }
 
         a.recycle();

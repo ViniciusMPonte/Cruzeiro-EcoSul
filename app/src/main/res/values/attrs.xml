@@ -14,6 +14,7 @@
         <attr name="corIcone" format="color" />
         <attr name="corFundoIcone" format="color" />
         <attr name="corCard" format="color" />
+        <attr name="paddingContainer" format="dimension" />
     </declare-styleable>
 
     <declare-styleable name="CardVertical">
