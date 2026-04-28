@@ -7,16 +7,16 @@
     <fragment
         android:id="@+id/inicioFragment"
         android:name="unicsul.pdm.cruzeiroecosul.ui.InicioFragment"
-        android:label="Cruzeiro EcoSul" />
+        android:label="@string/app_name" />
 
     <fragment
         android:id="@+id/dicasFragment"
         android:name="unicsul.pdm.cruzeiroecosul.ui.DicasFragment"
-        android:label="Dicas Sustentáveis" />
+        android:label="@string/dicas_titulo" />
 
     <fragment
         android:id="@+id/sobreFragment"
         android:name="unicsul.pdm.cruzeiroecosul.ui.SobreFragment"
-        android:label="Sobre o App" />
+        android:label="@string/sobre_titulo" />
 
 </navigation>

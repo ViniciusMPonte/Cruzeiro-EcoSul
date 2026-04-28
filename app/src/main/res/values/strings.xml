@@ -1,3 +1,71 @@
 <resources>
+    <!-- ======================== -->
+    <!--       GERAL / APP        -->
+    <!-- ======================== -->
     <string name="app_name">Cruzeiro EcoSul</string>
+    <string name="app_version">Versão 1.0</string>
+
+    <!-- ======================== -->
+    <!--     MENU DE NAVEGAÇÃO    -->
+    <!-- ======================== -->
+    <string name="nav_inicio">Início</string>
+    <string name="nav_dicas">Dicas</string>
+    <string name="nav_sobre">Sobre</string>
+
+    <!-- ======================== -->
+    <!--      TELA: INÍCIO        -->
+    <!-- ======================== -->
+    <string name="inicio_titulo">Pequenas ações, grande impacto</string>
+    <string name="inicio_subtitulo">Cuidar do planeta é cuidar de nós mesmos e das próximas gerações. Cada escolha consciente faz a diferença.</string>
+    <string name="inicio_secao_por_que">Por que agir agora?</string>
+
+    <!-- Card: Recicle seu lixo -->
+    <string name="inicio_card1_titulo">Recicle seu lixo</string>
+    <string name="inicio_card1_descricao">Separe materiais recicláveis e ajude a reduzir a poluição e o desperdício.</string>
+
+    <!-- Card: Economize água -->
+    <string name="inicio_card2_titulo">Economize água</string>
+    <string name="inicio_card2_descricao">Pequenas atitudes no dia a dia evitam o desperdício e preservam esse recurso essencial.</string>
+
+    <!-- ======================== -->
+    <!--   TELA: DICAS            -->
+    <!-- ======================== -->
+    <string name="dicas_titulo">Dicas Sustentáveis</string>
+    <string name="dicas_subtitulo">Confira hábitos simples para o dia a dia</string>
+
+    <!-- Dica 1: Energia -->
+    <string name="dica1_titulo">Use energia de forma consciente</string>
+    <string name="dica1_descricao">Desligue luzes e aparelhos quando não estiver usando. Pequenas atitudes economizam recursos e reduzem impactos ambientais.</string>
+    <string name="dica1_tag">Energia</string>
+
+    <!-- Dica 2: Reciclagem -->
+    <string name="dica2_titulo">Separe e recicle seus resíduos</string>
+    <string name="dica2_descricao">A separação correta dos materiais facilita a reciclagem e ajuda a transformar o que seria lixo em novos produtos.</string>
+    <string name="dica2_tag">Reciclagem</string>
+
+    <!-- Dica 3: Água -->
+    <string name="dica3_titulo">Economize água todos os dias</string>
+    <string name="dica3_descricao">Feche a torneira ao escovar os dentes, tome banhos mais curtos e reutilize água sempre que possível.</string>
+    <string name="dica3_tag">Água</string>
+
+    <!-- Dica 4: Consumo -->
+    <string name="dica4_titulo">Consuma de forma responsável</string>
+    <string name="dica4_descricao">Prefira produtos duráveis, evite desperdícios e apoie marcas sustentáveis sempre que puder.</string>
+    <string name="dica4_tag">Consumo</string>
+
+    <!-- ======================== -->
+    <!--      TELA: SOBRE         -->
+    <!-- ======================== -->
+    <string name="sobre_titulo">Sobre o App</string>
+    <string name="sobre_descricao">O Cruzeiro EcoSul é um aplicativo educativo criado para incentivar práticas sustentáveis no dia a dia. Nosso objetivo é conscientizar e inspirar pessoas a cuidarem do planeta com pequenas atitudes que geram grandes transformações.</string>
+
+    <!-- Seção: Nossa Missão -->
+    <string name="sobre_missao_titulo">Nossa Missão</string>
+    <string name="sobre_missao_descricao">Promover a sustentabilidade por meio da informação, educação e inspiração, contribuindo para um futuro melhor para todos.</string>
+
+    <!-- Seção: Desenvolvido por -->
+    <string name="sobre_dev_titulo">Desenvolvido por</string>
+    <string name="sobre_dev_nome">Vinícius Menezes Pontes</string>
+    <string name="sobre_dev_instituicao">Universidade Cruzeiro do Sul</string>
+
 </resources>

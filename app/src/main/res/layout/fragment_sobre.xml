@@ -1,50 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:padding="@dimen/page_margin">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        app:srcCompat="@drawable/logo" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtVersao">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/page_margin">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Heading" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sobre_descricao"
+                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/primary" />
+
+            <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
+                style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:corCard="@color/background"
+                app:corTitulo="@color/primary"
+                app:descricao="@string/sobre_missao_descricao"
+                app:icone="@drawable/bullseye_arrow"
+                app:paddingContainer="0dp"
+                app:strokeColor="@color/background"
+                app:titulo="@string/sobre_missao_titulo" />
+
+            <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
+                style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:corCard="@color/background"
+                app:corTitulo="@color/primary"
+                app:descricao="@string/sobre_dev_nome"
+                app:icone="@drawable/graduation_cap"
+                app:paddingContainer="0dp"
+                app:strokeColor="@color/background"
+                app:titulo="@string/sobre_dev_titulo" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
     <TextView
-        android:id="@+id/txtTitulo"
+        android:id="@+id/txtVersao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Heading"
-        android:text="Cruzeiro EcoSul" />
+        android:padding="@dimen/page_margin"
+        android:text="@string/app_version"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/txtDescricao"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body"
-        android:text="O Cruzeiro EcoSul é um aplicativo educativo criado para incentivar práticas sustentáveis no dia a dia. Nosso objetivo é conscientizar e inspirar pessoas a cuidarem do planeta com pequenas atitudes que geram grandes transformações." />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/primary" />
-
-    <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
-        android:id="@+id/cardReciclagem"
-        style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:corCard="@color/background"
-        app:corTitulo="@color/primary"
-        app:descricao="Separe materiais recicláveis e ajude a reduzir a poluição."
-        app:icone="@drawable/eco"
-        app:strokeColor="@color/background"
-        app:paddingContainer="0dp"
-        app:titulo="Recicle seu lixo" />
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

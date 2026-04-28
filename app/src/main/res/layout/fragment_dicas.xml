@@ -1,22 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/page_margin"
-    android:textAlignment="center">
+    android:layout_height="match_parent">
 
-    <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
-        style="@style/Widget.CruzeiroEcoSul.CardVertical"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:chip="Energia"
-        app:descricao="Desligue luzes e aparelhos quando não estiver usando."
-        app:imagem="@drawable/hero"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:titulo="Use energia de forma consciente" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/page_margin">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dicas_subtitulo" />
+
+        <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
+            style="@style/Widget.CruzeiroEcoSul.CardVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:chip="@string/dica1_tag"
+            app:descricao="@string/dica1_descricao"
+            app:imagem="@drawable/hero"
+            app:titulo="@string/dica1_titulo" />
+
+        <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
+            style="@style/Widget.CruzeiroEcoSul.CardVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:chip="@string/dica2_tag"
+            app:descricao="@string/dica2_descricao"
+            app:imagem="@drawable/hero"
+            app:titulo="@string/dica2_titulo" />
+
+        <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
+            style="@style/Widget.CruzeiroEcoSul.CardVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:chip="@string/dica3_tag"
+            app:descricao="@string/dica3_descricao"
+            app:imagem="@drawable/hero"
+            app:titulo="@string/dica3_titulo" />
+
+        <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
+            style="@style/Widget.CruzeiroEcoSul.CardVertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:chip="@string/dica4_tag"
+            app:descricao="@string/dica4_descricao"
+            app:imagem="@drawable/hero"
+            app:titulo="@string/dica4_titulo" />
+
+    </LinearLayout>
+</ScrollView>

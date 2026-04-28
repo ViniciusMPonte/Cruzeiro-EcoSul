@@ -1,54 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/page_margin"
-    android:textAlignment="center">
+    android:layout_height="match_parent">
 
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="256dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:shapeAppearanceOverlay="@style/ImagemArredondada"
-        app:srcCompat="@drawable/hero" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/page_margin">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="@dimen/text_center_width"
-        android:layout_height="wrap_content"
-        android:text="Pequenas ações, grande impacto"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Heading"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ImagemArredondada"
+            app:srcCompat="@drawable/hero" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="@dimen/text_center_width"
-        android:layout_height="wrap_content"
-        android:text="Cuidar do planeta é cuidar de nós mesmos e das próximas gerações. Cada escolha consciente faz a diferença."
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <TextView
+            android:layout_width="@dimen/text_center_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/inicio_titulo"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Heading" />
 
-    <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
-        style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:descricao="Separe materiais recicláveis e ajude a reduzir a poluição."
-        app:icone="@drawable/eco"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:titulo="Recicle seu lixo" />
+        <TextView
+            android:layout_width="@dimen/text_center_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/inicio_subtitulo"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inicio_secao_por_que"
+            android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.SectionTitle" />
+
+        <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
+            style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:descricao="@string/inicio_card1_descricao"
+            app:icone="@drawable/recycle"
+            app:titulo="@string/inicio_card1_titulo" />
+
+        <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
+            style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:descricao="@string/inicio_card2_descricao"
+            app:icone="@drawable/water_drop"
+            app:titulo="@string/inicio_card2_titulo" />
+
+    </LinearLayout>
+</ScrollView>
