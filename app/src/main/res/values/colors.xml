@@ -6,6 +6,7 @@
     <color name="primary">#277031</color>
     <color name="secondary">#f4f9ef</color>
     <color name="muted">#7d7f7c</color>
+    <color name="toolbar">#277031</color>
     <color name="divider">#4E7D7F7C</color>
     <color name="surface">#ffffff</color>
     <color name="accent">#e5f0d6</color>

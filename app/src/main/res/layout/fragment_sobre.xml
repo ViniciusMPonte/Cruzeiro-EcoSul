@@ -33,8 +33,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/sobre_descricao"
-                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body"
-                android:textColor="@color/primary"/>
+                android:textAppearance="@style/TextAppearance.CruzeiroEcoSul.Body" />
 
             <View
                 android:layout_width="match_parent"

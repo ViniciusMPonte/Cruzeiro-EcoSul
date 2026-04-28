@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#277031</color>
-    <color name="secondary">#f4f9ef</color>
-    <color name="muted">#7d7f7c</color>
+    <color name="white">#FF000000</color>
+    <color name="black">#FFFFFFFF</color>
+    <color name="background">#121612</color>
+    <color name="primary">#5aad65</color>
+    <color name="secondary">#1e271e</color>
+    <color name="muted">#9e9f9d</color>
+    <color name="toolbar">#2a4a25</color>
+    <color name="divider">#4E9E9F9D</color>
+    <color name="surface">#1e271e</color>
+    <color name="accent">#1e2d18</color>
+    <color name="chip">#2a4a25</color>
 </resources>
