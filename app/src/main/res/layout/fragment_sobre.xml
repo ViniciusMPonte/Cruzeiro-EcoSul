@@ -12,13 +12,22 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:corCard="@color/background"
-        app:strokeColor="@color/background"
+        app:corTitulo="@color/primary"
         app:descricao="Separe materiais recicláveis e ajude a reduzir a poluição."
         app:icone="@drawable/eco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:strokeColor="@color/background"
+        app:titulo="Recicle seu lixo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titulo="Recicle seu lixo"
-        app:corTitulo="@color/primary" />
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
