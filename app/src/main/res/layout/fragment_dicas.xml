@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             app:chip="@string/dica1_tag"
             app:descricao="@string/dica1_descricao"
-            app:imagem="@drawable/hero"
+            app:imagem="@drawable/dica1_img"
             app:titulo="@string/dica1_titulo" />
 
         <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             app:chip="@string/dica2_tag"
             app:descricao="@string/dica2_descricao"
-            app:imagem="@drawable/hero"
+            app:imagem="@drawable/dica2_img"
             app:titulo="@string/dica2_titulo" />
 
         <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             app:chip="@string/dica3_tag"
             app:descricao="@string/dica3_descricao"
-            app:imagem="@drawable/hero"
+            app:imagem="@drawable/dica3_img"
             app:titulo="@string/dica3_titulo" />
 
         <unicsul.pdm.cruzeiroecosul.componentes.CardVertical
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             app:chip="@string/dica4_tag"
             app:descricao="@string/dica4_descricao"
-            app:imagem="@drawable/hero"
+            app:imagem="@drawable/dica4_img"
             app:titulo="@string/dica4_titulo" />
 
     </LinearLayout>
