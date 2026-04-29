@@ -11,4 +11,13 @@
     <color name="surface">#ffffff</color>
     <color name="accent">#e5f0d6</color>
     <color name="chip">#c5e2bc</color>
+
+    <color name="red">#e53935</color>
+    <color name="yellow">#fdd835</color>
+    <color name="blue">#1e88e5</color>
+    <color name="orange">#fb8c00</color>
+    <color name="purple">#8e24aa</color>
+    <color name="pink">#d81b60</color>
+    <color name="cyan">#00acc1</color>
+    <color name="green">#43a047</color>
 </resources>

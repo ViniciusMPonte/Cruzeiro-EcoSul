@@ -22,5 +22,7 @@
         <attr name="descricao" />
         <attr name="imagem" format="reference" />
         <attr name="chip" format="string" />
+        <attr name="corTextChip" format="color" />
+        <attr name="corChip" format="color" />
     </declare-styleable>
 </resources>
