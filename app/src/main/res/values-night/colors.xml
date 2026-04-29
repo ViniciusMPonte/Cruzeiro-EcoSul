@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!--    <color name="white">#FF000000</color>-->
-<!--    <color name="black">#FFFFFFFF</color>-->
-<!--    <color name="background">#121612</color>-->
-<!--    <color name="primary">#5aad65</color>-->
-<!--    <color name="secondary">#1e271e</color>-->
-<!--    <color name="muted">#9e9f9d</color>-->
-<!--    <color name="toolbar">#2a4a25</color>-->
-<!--    <color name="divider">#4E9E9F9D</color>-->
-<!--    <color name="surface">#1e271e</color>-->
-<!--    <color name="accent">#1e2d18</color>-->
-<!--    <color name="chip">#2a4a25</color>-->
+    <color name="primary">#a6ccac</color>
+    <color name="muted">#babebc</color>
+    <color name="toolbar">#000000</color>
+    <color name="bottom_nav">#00000000</color>
+    <color name="accent">#2b3a31</color>
+    <color name="surface_card_vertical">#33453b</color>
+    <color name="surface_card_horizontal">#111b1c</color>
 </resources>

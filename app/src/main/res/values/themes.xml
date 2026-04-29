@@ -56,14 +56,14 @@
     <style name="Widget.CruzeiroEcoSul.CardVertical" parent="Widget.Material3.CardView.Outlined">
         <item name="strokeColor">@color/divider</item>
         <item name="strokeWidth">1dp</item>
-        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardBackgroundColor">@color/surface_card_vertical</item>
         <item name="android:layout_marginVertical">@dimen/linear_gap</item>
     </style>
 
     <style name="Widget.CruzeiroEcoSul.CardHorizontal" parent="Widget.Material3.CardView.Outlined">
         <item name="strokeColor">@color/divider</item>
         <item name="strokeWidth">1dp</item>
-        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardBackgroundColor">@color/surface_card_horizontal</item>
         <item name="android:layout_marginVertical">@dimen/linear_gap</item>
     </style>
 

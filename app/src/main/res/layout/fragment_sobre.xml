@@ -45,24 +45,24 @@
                 style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:corCard="@color/background"
+                app:corCard="@color/transparent"
                 app:corTitulo="@color/primary"
                 app:descricao="@string/sobre_missao_descricao"
                 app:icone="@drawable/bullseye_arrow"
                 app:paddingContainer="0dp"
-                app:strokeColor="@color/background"
+                app:strokeColor="@color/transparent"
                 app:titulo="@string/sobre_missao_titulo" />
 
             <unicsul.pdm.cruzeiroecosul.componentes.CardHorizontal
                 style="@style/Widget.CruzeiroEcoSul.CardHorizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:corCard="@color/background"
+                app:corCard="@color/transparent"
                 app:corTitulo="@color/primary"
                 app:descricao="@string/sobre_dev_nome"
                 app:icone="@drawable/graduation_cap"
                 app:paddingContainer="0dp"
-                app:strokeColor="@color/background"
+                app:strokeColor="@color/transparent"
                 app:titulo="@string/sobre_dev_titulo" />
 
         </LinearLayout>

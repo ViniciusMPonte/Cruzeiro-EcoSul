@@ -3,12 +3,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#f4f9ef</color>
+    <color name="transparent">#00000000</color>
     <color name="primary">#277031</color>
     <color name="secondary">#f4f9ef</color>
     <color name="muted">#7d7f7c</color>
     <color name="toolbar">#277031</color>
+    <color name="bottom_nav">#f4f9ef</color>
     <color name="divider">#4E7D7F7C</color>
-    <color name="surface">#ffffff</color>
+    <color name="surface_card_vertical">#ffffff</color>
+    <color name="surface_card_horizontal">#ffffff</color>
     <color name="accent">#e5f0d6</color>
     <color name="chip">#c5e2bc</color>
 
