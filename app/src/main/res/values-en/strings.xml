@@ -1,0 +1,70 @@
+<resources>
+    <!-- ======================== -->
+    <!--       GENERAL / APP      -->
+    <!-- ======================== -->
+    <string name="app_name">Cruzeiro EcoSul</string>
+    <string name="app_version">Version 1.0</string>
+
+    <!-- ======================== -->
+    <!--      NAVIGATION MENU     -->
+    <!-- ======================== -->
+    <string name="nav_inicio">Home</string>
+    <string name="nav_dicas">Tips</string>
+    <string name="nav_sobre">About</string>
+
+    <!-- ======================== -->
+    <!--       SCREEN: HOME       -->
+    <!-- ======================== -->
+    <string name="inicio_titulo">Small actions, big impact</string>
+    <string name="inicio_subtitulo">Caring for the planet means caring for ourselves and future generations. Every conscious choice makes a difference.</string>
+    <string name="inicio_secao_por_que">Why act now?</string>
+
+    <!-- Card: Recycle your waste -->
+    <string name="inicio_card1_titulo">Recycle your waste</string>
+    <string name="inicio_card1_descricao">Separate recyclable materials and help reduce pollution and waste.</string>
+
+    <!-- Card: Save water -->
+    <string name="inicio_card2_titulo">Save water</string>
+    <string name="inicio_card2_descricao">Small daily habits prevent waste and preserve this essential resource.</string>
+
+    <!-- ======================== -->
+    <!--       SCREEN: TIPS       -->
+    <!-- ======================== -->
+    <string name="dicas_titulo">Sustainable Tips</string>
+    <string name="dicas_subtitulo">Simple daily habits to get started</string>
+
+    <!-- Tip 1: Energy -->
+    <string name="dica1_titulo">Use energy mindfully</string>
+    <string name="dica1_descricao">Turn off lights and appliances when not in use. Small habits save resources and reduce environmental impact.</string>
+    <string name="dica1_tag">Energy</string>
+
+    <!-- Tip 2: Recycling -->
+    <string name="dica2_titulo">Sort and recycle your waste</string>
+    <string name="dica2_descricao">Properly sorting materials makes recycling easier and turns what would be trash into new products.</string>
+    <string name="dica2_tag">Recycling</string>
+
+    <!-- Tip 3: Water -->
+    <string name="dica3_titulo">Save water every day</string>
+    <string name="dica3_descricao">Turn off the tap while brushing your teeth, take shorter showers, and reuse water whenever possible.</string>
+    <string name="dica3_tag">Water</string>
+
+    <!-- Tip 4: Consumption -->
+    <string name="dica4_titulo">Consume responsibly</string>
+    <string name="dica4_descricao">Choose durable products, avoid waste, and support sustainable brands whenever you can.</string>
+    <string name="dica4_tag">Consumption</string>
+
+    <!-- ======================== -->
+    <!--      SCREEN: ABOUT       -->
+    <!-- ======================== -->
+    <string name="sobre_titulo">About the App</string>
+    <string name="sobre_descricao">Cruzeiro EcoSul is an educational app created to encourage sustainable practices in everyday life. Our goal is to raise awareness and inspire people to care for the planet through small actions that lead to great change.</string>
+
+    <!-- Section: Our Mission -->
+    <string name="sobre_missao_titulo">Our Mission</string>
+    <string name="sobre_missao_descricao">To promote sustainability through information, education, and inspiration, contributing to a better future for everyone.</string>
+
+    <!-- Section: Developed by -->
+    <string name="sobre_dev_titulo">Developed by</string>
+    <string name="sobre_dev_nome">Vinícius Menezes Pontes</string>
+    <string name="sobre_dev_instituicao">Cruzeiro do Sul University</string>
+</resources>
