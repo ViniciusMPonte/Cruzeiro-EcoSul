@@ -46,11 +46,5 @@ public class MainActivity extends AppCompatActivity {
                 toolbar.setLogo(null);
             }
         });
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, 0, 0);
-            return insets;
-        });
     }
 }
